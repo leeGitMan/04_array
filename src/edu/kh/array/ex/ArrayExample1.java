@@ -11,7 +11,7 @@ public class ArrayExample1 {
 	/* 배열(Array)
 	 * - 같은 자료형의 변수를 하나의 묶음으로 다루는 것.(자료구조)
 	 * - 묶여진 변수들은 하나의 배열명으로 불려지고, 구분은 index를 이용함
-	 *  (index는 0부터 ㅅ작하는 정수)
+	 *  (index는 0부터 시작하는 정수)
 	 *  
 	 */
 	public void ex1() {
@@ -65,7 +65,7 @@ public class ArrayExample1 {
 		
 		// ******** 배열 초기화 방법 외우기 ********
 		// for문을 이용한 초기화
-		// ex) for(int i = 0; i< ar.length; i++){
+		// ex) for(int i = 0; i< arr.length; i++){
 		//		arr[i] =i;
 		// }
 		
@@ -134,9 +134,9 @@ public class ArrayExample1 {
 		
 		
 		for(int i = 0; i < arr.length; i++) {
-			System.out.printf("arr[%d]에 저장된 값 : %2f\n", i, arr[i]);			
+			System.out.printf("arr[%d]에 저장된 값 : %.2f\n", i, arr[i]);			
 		}
-		System.out.printf("\n평균 : %2f", avg);
+		System.out.printf("\n평균 : %.2f", avg);
 		
 		*/
 		
@@ -265,12 +265,13 @@ public class ArrayExample1 {
 		// 입력 받은 정수가 배열에 있는지 없는지 확인
 		// 만약 있다면 몇번 인덱스에 존재하는지 출력
 		
+		
+		
 		int[] arr = {100,200,300,400,500,600,700,800,900,1000};
-		
-		
 		
 		System.out.print("정수 입력 : ");
 		int input = sc.nextInt();
+		
 		
 		
 		// 신호를 나타내기 위한 변수

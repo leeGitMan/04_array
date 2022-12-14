@@ -6,7 +6,9 @@ public class ArrayRun {
 		ArrayExample1 ex = new ArrayExample1();
 
 		ArrayExample2 sh = new ArrayExample2();
-		sh.createLottoNumber();
+		
+		ex.ex9();
+		
 		
 		
 	}
