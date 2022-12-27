@@ -97,7 +97,7 @@ public class ArrayExample2 {
 		
 		for(int i = 0; i < 6; i++) {
 			// 3) 1~ 45 사이의 난수 생성
-			int random = (int) (Math.random() * 500500 + 1);
+			int random = (int) (Math.random() * 45 + 1);
 			// 0.0 <= x < 1.0    Math.random()
 			// 0.0 <= x * 45 < 45.0   Math.random() * 45
 			// 1.0 <= x & 45 + 1 <46   Math.random() * 45 + 1
